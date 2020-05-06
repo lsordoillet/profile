@@ -1,22 +1,20 @@
 /* basic style */
 
 body {
-  background-color: #3E7DC6;
+  background-color: #14213d;
   font-family: 'Poppins', sans-serif;
-  color:black;
+  color:#14213d;
   font-size:16px;
   line-height: 1,6;
   font-weight: lighter;
 }
 
 h1 {
-  color:black;
   font-size:40px;
   text-align:center;
 }
 
 h2 {
-  color:#000000;
   font-size:35px;
 }
 
@@ -32,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color:#14213d;
 }
 
 /*  class design */
@@ -50,18 +48,24 @@ a:hover {
 }
 
 .card {
-  background-color: #EFEFEF;
+  background-color: #e5e5e5;
   padding:25px;
   border-radius: 4px;
   border: 1px solid lightgrey;
   margin-top: 20px;
   text-align: center;
+  box-shadow: 2px 2px 3px #14213d;
 }
 
 .btn-blue {
-  background-color: #3E7DC6;
+  background-color: #14213d;
+  color:#e5e5e5;
   padding:10px;
   border-radius: 4px;
+}
+
+.btn-blue:hover{
+   background-color: #fca311;
 }
 
 .list-inline {
@@ -76,10 +80,10 @@ a:hover {
 
 .list-inline i {
   font-size: 50px;
-  color: #448ADA;
+  color: #14213d ;
 }
 .list-inline i:hover {
-  color: black;
+  color: #fca311;
 }
 
 .map-responsive{
