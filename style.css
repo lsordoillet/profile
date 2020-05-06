@@ -1,0 +1,118 @@
+/* basic style */
+
+body {
+  background-color: #3E7DC6;
+  font-family: 'Poppins', sans-serif;
+  color:black;
+  font-size:16px;
+  line-height: 1,6;
+  font-weight: lighter;
+}
+
+h1 {
+  color:black;
+  font-size:40px;
+  text-align:center;
+}
+
+h2 {
+  color:#000000;
+  font-size:35px;
+}
+
+p {
+  font-size:20px;
+}
+
+a {
+  text-decoration: none;
+  color:#F0F2EF;
+  font-weight: lighter;
+  font-size:22px;
+}
+
+a:hover {
+  color: black;
+}
+
+/*  class design */
+
+
+.container {
+  width: 1000px;
+  margin: 40px auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: 170px;
+  width:170px;
+}
+
+.card {
+  background-color: #EFEFEF;
+  padding:25px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: #3E7DC6;
+  padding:10px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #448ADA;
+}
+.list-inline i:hover {
+  color: black;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*  class responsive */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
